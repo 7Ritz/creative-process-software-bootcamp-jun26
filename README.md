@@ -11,8 +11,6 @@ A simple project tracker for the Creative Process Bootcamp.
 
 ## Planned Features
 
-Planned Features
-
 - Dashboard interface
 - Task management
 - Interactive user experience
