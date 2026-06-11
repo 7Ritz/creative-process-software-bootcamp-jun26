@@ -11,4 +11,12 @@ A simple project tracker for the Creative Process Bootcamp.
 
 ## Planned Features
 
-- Stuff
+Planned Features
+
+- Dashboard interface
+- Task management
+- Interactive user experience
+- Reusable components
+- Live data integration
+- Data storage
+- Deployment and sharing
