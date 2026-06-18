@@ -52,23 +52,17 @@ Or create your own idea.
 
 ## My Project
 
-Project Name:
+Project Name: 
 
-_________________________________
+Personal-Dashboard
 
 Project Description:
 
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+A self-hosted personal dashboard.
 
 Why did you choose this project?
 
-____________________________________________________
-
-____________________________________________________
+So I can be more organised & sovereign over my data, identify patterns within my life and optimise myself & my environment so I can achieve my goals.
 
 ---
 
@@ -80,25 +74,21 @@ Record the details below.
 
 Repository Name:
 
-_________________________________
+personal-dashboard
 
 Repository URL:
 
-_________________________________
+https://github.com/7Ritz/personal-dashboard.git
 
 Questions:
 
 Why might it be useful to store your project online?
 
-____________________________________________________
-
-____________________________________________________
+So you can access it from any device with an internet connection.
 
 Why might version history be important?
 
-____________________________________________________
-
-____________________________________________________
+You can see exactly what has improved/changed along the general lifespan of a project.
 
 ---
 
@@ -112,21 +102,17 @@ Clone your repository to your computer and open it in Visual Studio Code.
 
 Repository Location:
 
-_________________________________
+"/home/noahbp/Documents/Creative Process/personal-dashboard"
 
 Questions:
 
 Why might developers work locally instead of editing files directly on GitHub?
 
-____________________________________________________
-
-____________________________________________________
+Developers can make quick tests & adjustments when editing a file locally, then decide when they want to push changes to Github.
 
 What software did you use to open your project?
 
-____________________________________________________
-
-____________________________________________________
+VSCode
 
 ---
 
@@ -140,15 +126,11 @@ Questions:
 
 What is the purpose of a project board?
 
-____________________________________________________
-
-____________________________________________________
+Provides a clear overview of what needs to be worked on within a software or application. It is an organisational tool for prioritising, collaborating and efficiently working on active changes/developments/updates within a software project.
 
 How might a project board help a software development team?
 
-____________________________________________________
-
-____________________________________________________
+It will help them map out ideas, track their activity, general organisation and makes collaboration easy.
 
 ---
 
@@ -162,11 +144,21 @@ Add at least five tasks to your project board.
 
 | Task | Priority |
 |--------|--------|
-| | |
-| | |
-| | |
-| | |
-| | |
+|        |        |
+|        |        |
+|        |        |
+|        |        |
+|        |        |
+
+Create UI | High Prio
+Integrate Habit Tracker | High Prio
+Create Personal Stat Bar High Prio
+Import 3D Biomodel | Med Prio
+Create Database | High Prio
+Program DB to store UI Inputs | High Prio
+
+Set up authorisation/login?
+
 
 Use:
 
@@ -180,15 +172,15 @@ Questions:
 
 Which task should be completed first?
 
-____________________________________________________
+Creating UI 
 
 Which task do you think will be most difficult?
 
-____________________________________________________
+Fetching data with API / Storing data in a DB
 
 Which task is most important to the success of your project?
 
-____________________________________________________
+Having smooth logic & efficient coding, secure authorisation, secure storage of data, general fucntionality and display / UI compatibility across devices
 
 ---
 
@@ -207,23 +199,19 @@ Include:
 
 What problem does your project solve?
 
-____________________________________________________
-
-____________________________________________________
+It helps me stay organised
 
 Who might use your project?
 
-____________________________________________________
-
-____________________________________________________
+Me, anyone else
 
 What features would you like to add?
 
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+3D Biohologram 
+Personal Statistics
+Goal-setting & Habit Trackers
+Calendar Integrations
+Automated Accounting
 
 ---
 
@@ -237,29 +225,27 @@ Think about where you would like your project to be by the end of the bootcamp.
 
 | Feature | Priority |
 |----------|----------|
-| | |
-| | |
-| | |
-| | |
-| | |
+
+3D Biohologram | Mid
+Personal Statistics | High
+Goal-setting & Habit Trackers | High
+Calendar Integrations | High
+Automated Accounting | High
+SQL Database | Extreme
 
 Questions:
 
 Which feature will provide the most value?
 
-____________________________________________________
+Habit Tracker
 
 Which feature do you think will be most difficult to implement?
 
-____________________________________________________
+Probably routing all data inputs to a self-hosted SQL Database.
 
 What would success look like at the end of the bootcamp?
 
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+Complete, Functional Application I can use in my day-to-day life
 
 ---
 
@@ -279,21 +265,15 @@ Questions:
 
 What does a commit do?
 
-____________________________________________________
-
-____________________________________________________
+Commits changes to a project, usually with a message to clarify exactly what has been changed - tracks progress/changes in case you ever want to go back, check something or roll back the project version completely.
 
 Why might software developers create multiple commits during a project?
 
-____________________________________________________
-
-____________________________________________________
+To track their activities, what they change in case they make a mistake or need to identify an error. Provides much more flexibility and accountability, which is needed for something as precise as webdev or software dev.
 
 What is the purpose of pushing changes to GitHub?
 
-____________________________________________________
-
-____________________________________________________
+Pushing changes is like finalising a test subject - or the finished product. The two may be refleced in the project dashboard depending on how you have your repo set up and how organised you are. Practically, all "pushing" is doing is uploading your local changes to your github repo so other people (or just yourself) can access those changes across the net.
 
 ---
 
@@ -310,6 +290,13 @@ Add:
 - Better descriptions
 - Additional project information
 - Future development plans
+- Screenshots of UI
+- Installation Instructions
+- Who it's for / Use cases
+- Dependencies / Prerequisites / Requirements
+- Config options
+- License
+- How to contribute
 
 ---
 
@@ -365,27 +352,15 @@ Update your README based on your findings.
 
 ## What problem did we solve today?
 
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+We learnt how to structure our projects like real software devs. We solved issues of unorganisation, making it easier to find & log issues and fix them.
 
 ## What was the most useful thing you learned?
 
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+How to use my own Github repositories as a marking board for all my projects.
 
 ## What would you like to learn more about?
 
-____________________________________________________
-
-____________________________________________________
-
-____________________________________________________
+Programming ith HTML, CSS, JS & Python. Particularly basics of JS and Python and eventually calling an API.
 
 ## Confidence Check
 
@@ -394,5 +369,5 @@ How confident do you currently feel about software development?
 - [ ] Very Unconfident
 - [ ] Unconfident
 - [ ] Neutral
-- [ ] Confident
+- [x] Confident
 - [ ] Very Confident
