@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Tracker Board Showcase</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>Project Tracker</h1>
+      <p class="tagline">A polished static dashboard for planning and visibility.</p>
+    </div>
+    <p class="release-label">Week 2 Showcase</p>
+  </header>
+
+  <nav aria-label="Primary" class="site-nav">
+    <ul>
+      <li><a class="current" href="index.html">Board</a></li>
+      <li><a href="summary.html">Summary</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="summary-grid" aria-label="Project statistics">
+      <article class="summary-card">
+        <h2>Open Tasks</h2>
+        <p class="summary-value">5</p>
+      </article>
+      <article class="summary-card">
+        <h2>In Progress</h2>
+        <p class="summary-value">2</p>
+      </article>
+      <article class="summary-card">
+        <h2>Completed</h2>
+        <p class="summary-value">3</p>
+      </article>
+    </section>
+
+    <section class="board" aria-label="Project board columns">
+      <h2>Dashboard</h2>
+      <div class="board-columns">
+        <section class="column" aria-labelledby="todo-title">
+          <h3 id="todo-title">To Do</h3>
+          <article class="task-card">
+            <h4>Add JavaScript</h4>
+            <p><span class="badge badge-high">High</span> Due: Week 3</p>
+          </article>
+          <article class="task-card">
+            <h4>Connect project data</h4>
+            <p><span class="badge badge-medium">Medium</span> Due: Week 5</p>
+          </article>
+          <article class="task-card">
+            <h4>Prepare deployment checklist</h4>
+            <p><span class="badge badge-medium">Medium</span> Due: Week 8</p>
+          </article>
+        </section>
+
+        <section class="column" aria-labelledby="progress-title">
+          <h3 id="progress-title">In Progress</h3>
+          <article class="task-card">
+            <h4>Build dashboard interface</h4>
+            <p><span class="badge badge-high">High</span> Due: This week</p>
+          </article>
+          <article class="task-card">
+            <h4>Improve visual styling</h4>
+            <p><span class="badge badge-low">Low</span> Due: This week</p>
+          </article>
+        </section>
+
+        <section class="column" aria-labelledby="done-title">
+          <h3 id="done-title">Done</h3>
+          <article class="task-card">
+            <h4>Create repository</h4>
+            <p><span class="badge badge-low">Done</span></p>
+          </article>
+          <article class="task-card">
+            <h4>Write README</h4>
+            <p><span class="badge badge-low">Done</span></p>
+          </article>
+          <article class="task-card">
+            <h4>Plan project backlog</h4>
+            <p><span class="badge badge-low">Done</span></p>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section class="upcoming" aria-labelledby="upcoming-title">
+      <h2 id="upcoming-title">Upcoming Work</h2>
+      <p>Next steps focus on adding behaviour, connecting data, and preparing the project for sharing.</p>
+    </section>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <p>Project Tracker showcase for stretch exploration in Week 2.</p>
+  </footer>
+</body>
+</html>
